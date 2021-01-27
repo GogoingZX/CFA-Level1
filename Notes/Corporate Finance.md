@@ -81,6 +81,7 @@ $0=NPV= CF_0 + \frac{CF_1}{(1+IRR)^1} + \frac{CF_2}{(1+IRR)^2} + \cdots + \frac{
     | :-----------: | :------: | :----: | :----: | :----: |
     |   Cash Flow   | -1000.00 | 200.00 | 400.00 | 800.00 |
     | Discounted CF | -1000.00 | 173.73 | 301.83 | 524.37 |
+
 	$NPV = -1000 + \frac{200}{(1+IRR)^1} + \frac{400}{(1+IRR)^2} + \frac{800}{(1+IRR)^3} = 0 \Rightarrow IRR = 15.12\%$
 
 * Investment decision criteria (for single/independent project)
